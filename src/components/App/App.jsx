@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
-import Section from './Section/Section';
-import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
-import Statistics from './Statistics/Statistics';
-import Notification from './Notification/Notification';
-import styled from 'styled-components';
-
-const StyledApp = styled.div`
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 20px;
-`;
+import Section from '../Section/Section';
+import FeedbackOptions from '../FeedbackOptions/FeedbackOptions';
+import Statistics from '../Statistics/Statistics';
+import Notification from '../Notification/Notification';
+import StyledApp from './App.styled';
 
 class App extends Component {
   state = {
